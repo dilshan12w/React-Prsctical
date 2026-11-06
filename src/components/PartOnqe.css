@@ -1,0 +1,8 @@
+.frc{
+  color : red;
+  padding : 10px 200px;
+}
+
+.frc:hover {
+  background-color: gray; 
+}
