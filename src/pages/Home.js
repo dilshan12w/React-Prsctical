@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <h1>Home</h1>
-      <h1 align = "center">This is my first app</h1>
+      {/* <h1 align = "center">This is my first app</h1>
             <h1 align = "left">Welcome to my page</h1>
             <PartOne/>
             <Button/>
@@ -26,7 +26,7 @@ export default function Home() {
             <Object item = "desk" price = "Rs.1890">
                 <button>Click me</button>
             </Object>
-            <Object item = "book" price = "Rs.1890"/>
+            <Object item = "book" price = "Rs.1890"/> */}
 
             
 
