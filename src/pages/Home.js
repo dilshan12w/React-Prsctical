@@ -17,9 +17,12 @@ export default function Home() {
             <Food foods= "kottu"/>
             <Food foods = "Rice"/>
             <Food foods = "Parata"/>
+
+
             <Object item = "chair"/>
             <Object item = "desk"/>
             <Object item = "book"/>
+
             
 
     </div>
