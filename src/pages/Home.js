@@ -19,9 +19,9 @@ export default function Home() {
             <Food foods = "Parata"/>
 
 
-            <Object item = "chair"/>
-            <Object item = "desk"/>
-            <Object item = "book"/>
+            <Object item = "chair" price = "Rs.1890"/>
+            <Object item = "desk" price = "Rs.1890"/>
+            <Object item = "book" price = "Rs.1890"/>
 
             
 
