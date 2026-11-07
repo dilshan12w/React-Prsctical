@@ -40,16 +40,24 @@ import {
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Galery from "./pages/Galery";
+import Calculate from "./pages/Calculate";
+import Calculatea from "./pages/Calculate";
 
 function App() {
   return (
+    <div>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Galery" element ={<Galery/>}/>
+        <Route path="/Calculate" element ={<Calculatea/>}/>
       </Routes>
     </BrowserRouter>
+
+    </div>
   );
 }
 
