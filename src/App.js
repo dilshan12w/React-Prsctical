@@ -43,6 +43,8 @@ import Contact from "./pages/Contact";
 import Galery from "./pages/Galery";
 import Calculate from "./pages/Calculate";
 import Calculatea from "./pages/Calculate";
+import Accordion from 'react-bootstrap/Accordion';
+import Event from "./pages/Event";
 
 function App() {
   return (
@@ -54,8 +56,11 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/Galery" element ={<Galery/>}/>
         <Route path="/Calculate" element ={<Calculatea/>}/>
+        <Route path="/Event" element ={<Event/>}/>
       </Routes>
     </BrowserRouter>
+
+    
 
     </div>
   );

@@ -66,3 +66,8 @@
 .groupcal{
   transform: translate(200px);
 }
+
+.event_tittle{
+  font-size: 30px;
+  transform:translate(50px);
+}
